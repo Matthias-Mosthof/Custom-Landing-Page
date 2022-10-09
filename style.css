@@ -30,6 +30,20 @@ body {
 
 /*Specific-Styling*/
 
+.logo {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-left: 1px;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    list-style-type: none;
+}
+
  .flex-footer {
     margin-top: 5rem;
     display: flex;
