@@ -1,0 +1,37 @@
+/*General-Styling*/
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+
+  font-family: "raleway";
+  font-weight: 700;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+:root {
+    --primary-color-one: hsl(243, 87%, 12%);
+    --primary-color-two: hsl(238, 22%, 44%);
+    --accent-color-one: Bright Blue: hsl(224, 93%, 58%);
+    --accent-color-two: Moderate Cyan: hsl(170, 45%, 43%);
+    --neutral-color-one: Light Grayish Blue: hsl(240, 75%, 98%);
+    --neutral-color-two: - Light Gray: hsl(0, 0%, 75%);
+    margin: 2rem;
+}
+
+/*Specific-Styling*/
+
+ .flex-footer {
+    margin-top: 5rem;
+    display: flex;
+    gap: 9rem;
+ }
