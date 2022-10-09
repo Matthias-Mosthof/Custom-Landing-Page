@@ -8,7 +8,6 @@ h1,
 h2,
 h3,
 h4 {
-
   font-family: "raleway";
   font-weight: 700;
 }
@@ -19,33 +18,53 @@ body {
 }
 
 :root {
-    --primary-color-one: hsl(243, 87%, 12%);
-    --primary-color-two: hsl(238, 22%, 44%);
-    --accent-color-one: Bright Blue: hsl(224, 93%, 58%);
-    --accent-color-two: Moderate Cyan: hsl(170, 45%, 43%);
-    --neutral-color-one: Light Grayish Blue: hsl(240, 75%, 98%);
-    --neutral-color-two: - Light Gray: hsl(0, 0%, 75%);
-    margin: 2rem;
+  --primary-color-one: hsl(243, 87%, 12%);
+  --primary-color-two: hsl(238, 22%, 44%);
+  --accent-color-one: hsl(224, 93%, 58%);
+  --accent-color-two: hsl(170, 45%, 43%);
+  --neutral-color-one: hsl(240, 75%, 98%);
+  --neutral-color-two: hsl(0, 0%, 75%);
+  margin: 2rem;
 }
 
 /*Specific-Styling*/
 
 .logo {
-    height: 200px;
-    width: 200px;
-    margin: auto;
-    margin-left: 1px;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  margin-left: 1px;
 }
 
 .flex-header {
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
-    list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  list-style-type: none;
 }
 
- .flex-footer {
-    margin-top: 5rem;
-    display: flex;
-    gap: 9rem;
- }
+.flex-footer {
+  margin-top: 5rem;
+  display: flex;
+  gap: 9rem;
+}
+
+.input {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-right: 1rem;
+}
+
+.Button-started {
+  background-color: var(--accent-color-one);
+  color: white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  font-family: inherit;
+  border: none;
+  border-radius: 5px;
+}
