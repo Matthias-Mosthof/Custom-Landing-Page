@@ -15,6 +15,7 @@ h4 {
 body {
   font-family: "Open Sans";
   font-weight: 400;
+  color: var(--primary-color-one);
 }
 
 :root {
@@ -24,7 +25,6 @@ body {
   --accent-color-two: hsl(170, 45%, 43%);
   --neutral-color-one: hsl(240, 75%, 98%);
   --neutral-color-two: hsl(0, 0%, 75%);
-  margin: 2rem;
 }
 
 /*Specific-Styling*/
@@ -58,6 +58,36 @@ body {
 }
 
 .Button-started {
+  background-color: var(--accent-color-one);
+  color: white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  font-family: inherit;
+  border: none;
+  border-radius: 5px;
+}
+
+.Acces {
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: baseline;
+  padding: 2rem;
+  background-color: var(--primary-color-two);
+  gap: 5rem;
+}
+
+.input2 {
+  padding-right: 10rem;
+  padding-top: 0.5rem;
+}
+
+.button2 {
+  margin-top: 0.4rem;
   background-color: var(--accent-color-one);
   color: white;
   padding-left: 3rem;
