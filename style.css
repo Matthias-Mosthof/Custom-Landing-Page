@@ -44,9 +44,17 @@ body {
 }
 
 .flex-footer {
-  margin-top: 5rem;
+  background-color: var(--primary-color-one);
+  color: white;
   display: flex;
-  gap: 9rem;
+  gap: 30rem;
+  justify-content: flex-start;
+  list-style-type: none;
+  line-height: 2rem;
+}
+
+.footer-list {
+  list-style-type: none;
 }
 
 .input {
@@ -97,4 +105,35 @@ body {
   font-family: inherit;
   border: none;
   border-radius: 5px;
+}
+
+.Fylo-link:hover {
+  color: var(--accent-color-two);
+}
+
+.container-pic-one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pic-one {
+  background: url(illustration-1.svg);
+  width: 500px;
+  height: 370px;
+  background-size: 100%;
+}
+
+.container-pic-two {
+  display: flex;
+  align-items: ;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.pic-two {
+  background: url(illustration-2.svg);
+  width: 500px;
+  height: 370px;
+  background-size: 100%;
 }
