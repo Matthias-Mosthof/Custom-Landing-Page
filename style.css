@@ -16,6 +16,11 @@ body {
   font-family: "Open Sans";
   font-weight: 400;
   color: var(--primary-color-one);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
 }
 
 :root {
@@ -27,6 +32,13 @@ body {
   --neutral-color-two: hsl(0, 0%, 75%);
 }
 
+.Fylo-link::after {
+  content: url(icon-arrow.svg);
+  width: 10px;
+  height: 10px;
+  margin-left: 0.5rem;
+}
+
 /*Specific-Styling*/
 
 .logo {
@@ -36,11 +48,27 @@ body {
   margin-left: 1px;
 }
 
+.founder-pic {
+  background-image: url(Avatar-testimonial.jpg);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.founder-text {
+  margin-left: 70px;
+  width: 300px;
+  line-height: 0.5rem;
+}
+
 .flex-header {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
   list-style-type: none;
+  margin-right: 7rem;
+  max-width: 1440px;
 }
 
 .Button-started {
@@ -66,6 +94,7 @@ body {
   padding: 2rem;
   background-color: var(--primary-color-two);
   gap: 5rem;
+  max-width: 1440px;
 }
 
 .input2 {
@@ -94,6 +123,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 2rem;
+  max-width: 1440px;
 }
 
 .pic-one {
@@ -106,9 +137,10 @@ body {
 
 .container-pic-two {
   display: flex;
-  align-items: ;
   justify-content: space-between;
   background-color: var(--neutral-color-one);
+  padding: 2rem;
+  max-width: 1440px;
 }
 
 .pic-two {
@@ -121,6 +153,7 @@ body {
 
 .wave {
   background: url(bg-curve-desktop.svg);
+
   width: 1440px;
   height: 100px;
 }
@@ -130,7 +163,7 @@ body {
 .flex-footer {
   color: white;
   display: flex;
-  gap: 20rem;
+  gap: 13rem;
   justify-content: flex start;
   list-style-type: none;
   line-height: 2rem;
@@ -139,6 +172,7 @@ body {
   padding: 2rem;
   background-color: var(--primary-color-one);
   color: white;
+  max-width: 1440px;
 }
 
 .logo-footer {
@@ -206,4 +240,20 @@ body {
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   margin-right: 1rem;
+}
+
+.quote-item {
+  background-image: url(icon-quotes.svg);
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+}
+
+.quote-container {
+  background-color: white;
+  width: 400px;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 0.8rem;
+  box-shadow: 10px 14px rgba(223, 222, 222, 0.521);
 }
