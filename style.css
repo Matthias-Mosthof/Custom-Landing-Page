@@ -43,28 +43,6 @@ body {
   list-style-type: none;
 }
 
-.flex-footer {
-  background-color: var(--primary-color-one);
-  color: white;
-  display: flex;
-  gap: 30rem;
-  justify-content: flex-start;
-  list-style-type: none;
-  line-height: 2rem;
-}
-
-.footer-list {
-  list-style-type: none;
-}
-
-.input {
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
-  margin-right: 1rem;
-}
-
 .Button-started {
   background-color: var(--accent-color-one);
   color: white;
@@ -83,6 +61,7 @@ body {
 
 .container {
   display: flex;
+  justify-content: space-between;
   align-items: baseline;
   padding: 2rem;
   background-color: var(--primary-color-two);
@@ -122,13 +101,14 @@ body {
   width: 500px;
   height: 370px;
   background-size: 100%;
+  margin-right: 4rem;
 }
 
 .container-pic-two {
   display: flex;
   align-items: ;
   justify-content: space-between;
-  margin-top: 4rem;
+  background-color: var(--neutral-color-one);
 }
 
 .pic-two {
@@ -136,4 +116,94 @@ body {
   width: 500px;
   height: 370px;
   background-size: 100%;
+  margin-right: 4rem;
+}
+
+.wave {
+  background: url(bg-curve-desktop.svg);
+  width: 1440px;
+  height: 100px;
+}
+
+/* Footer Styling */
+
+.flex-footer {
+  color: white;
+  display: flex;
+  gap: 20rem;
+  justify-content: flex start;
+  list-style-type: none;
+  line-height: 2rem;
+}
+.footer {
+  padding: 2rem;
+  background-color: var(--primary-color-one);
+  color: white;
+}
+
+.logo-footer {
+  margin-left: 2.5rem;
+  background-image: url(logo.svg);
+  filter: invert(100%);
+  background-size: cover;
+  width: 210px;
+  height: 60px;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.phone {
+  width: 200px;
+}
+
+.phone::before {
+  content: url(icon-phone.svg) " ";
+}
+
+.mail::before {
+  content: url(icon-email.svg) " ";
+}
+
+.footer-list {
+  list-style-type: none;
+}
+
+.social-media {
+  margin-left: auto;
+  margin-right: 50rem;
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.twitter {
+  background-image: url(https://img.icons8.com/android/24/000000/twitter.png);
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+}
+
+.fb {
+  background-image: url(https://img.icons8.com/small/16/000000/facebook-new.png);
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+
+.insta {
+  background-image: url(https://img.icons8.com/windows/32/000000/instagram-new.png);
+  filter: invert(100%);
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+
+.input {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-right: 1rem;
 }
