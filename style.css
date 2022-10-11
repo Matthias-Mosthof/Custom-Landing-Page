@@ -83,6 +83,11 @@ body {
   border-radius: 5px;
 }
 
+.Button-started:hover {
+  background-color: var(--accent-color-two);
+  cursor: pointer;
+}
+
 .Acces {
   color: white;
 }
@@ -106,13 +111,18 @@ body {
   margin-top: 0.4rem;
   background-color: var(--accent-color-one);
   color: white;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   font-family: inherit;
   border: none;
   border-radius: 5px;
+}
+
+.button2:hover {
+  background-color: var(--accent-color-two);
+  cursor: pointer;
 }
 
 .Fylo-link:hover {
@@ -210,36 +220,55 @@ body {
   gap: 1rem;
 }
 
-.twitter {
-  background-image: url(https://img.icons8.com/android/24/000000/twitter.png);
+.social {
   filter: invert(100%);
   width: 30px;
   height: 30px;
-  background-size: 100%;
+  background-size: cover;
+}
+
+.social:hover {
+  filter: invert(50%);
+  cursor: pointer;
+}
+
+.twitter {
+  background-image: url(https://img.icons8.com/android/24/000000/twitter.png);
 }
 
 .fb {
   background-image: url(https://img.icons8.com/small/16/000000/facebook-new.png);
-  filter: invert(100%);
-  width: 30px;
-  height: 30px;
-  background-size: cover;
 }
 
 .insta {
   background-image: url(https://img.icons8.com/windows/32/000000/instagram-new.png);
-  filter: invert(100%);
-  width: 30px;
-  height: 30px;
-  background-size: cover;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.description {
+  position: absolute;
+  left: 10px;
+  top: 4px;
+  color: rgb(165, 165, 165);
 }
 
 .input {
-  padding-left: 3rem;
-  padding-right: 3rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
+  width: 300px;
   margin-right: 1rem;
+  font-size: 1rem;
+  padding-inline: 0.1rem;
+  padding-block: 0.8rem;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+input:focus + .description,
+.text-input:not(:placeholder-shown) + .description {
+  font-size: 0.8rem;
+  top: 1px;
 }
 
 .quote-item {
