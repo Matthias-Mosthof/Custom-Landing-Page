@@ -63,7 +63,7 @@ body {
 }
 
 .pic-one {
-  background: url(illustrations/illustration-1.svg);
+  background: url(Illustrations/illustration-1.svg);
   width: 500px;
   height: 370px;
   background-size: 100%;
@@ -126,7 +126,7 @@ input:focus + .description,
 /* Middle Area */
 
 .pic-two {
-  background: url(illustrations/illustration-2.svg);
+  background: url(Illustrations/illustration-2.svg);
   width: 500px;
   height: 370px;
   background-size: 100%;
@@ -134,7 +134,7 @@ input:focus + .description,
 }
 
 .founder-pic {
-  background-image: url(illustrations/Avatar-testimonial.jpg);
+  background-image: url(Illustrations/Avatar-testimonial.jpg);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -148,7 +148,7 @@ input:focus + .description,
 }
 
 .quote-item {
-  background-image: url(illustrations/icon-quotes.svg);
+  background-image: url(Illustrations/icon-quotes.svg);
   width: 15px;
   height: 15px;
   background-size: cover;
@@ -168,14 +168,14 @@ input:focus + .description,
 }
 
 .Fylo-link::after {
-  content: url(illustrations/icon-arrow.svg);
+  content: url(Illustrations/icon-arrow.svg);
   width: 10px;
   height: 10px;
   margin-left: 0.5rem;
 }
 
 .wave {
-  background: url(illustrations/bg-curve-desktop.svg);
+  background: url(Illustrations/bg-curve-desktop.svg);
 
   width: 1440px;
   height: 100px;
@@ -239,7 +239,7 @@ input:focus + .description,
 
 .logo-footer {
   margin-left: 2.5rem;
-  background-image: url(illustrations/logo.svg);
+  background-image: url(Illustrations/logo.svg);
   filter: invert(100%);
   background-size: cover;
   width: 210px;
@@ -257,11 +257,11 @@ input:focus + .description,
 }
 
 .phone::before {
-  content: url(illustrations/icon-phone.svg) " ";
+  content: url(Illustrations/icon-phone.svg) " ";
 }
 
 .mail::before {
-  content: url(illustrations/icon-email.svg) " ";
+  content: url(Illustrations/icon-email.svg) " ";
 }
 
 .footer-list {
